@@ -1,0 +1,13 @@
+name: Secret Brave Key Test
+
+on: [push]
+
+jobs:
+  show_secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Brave Key
+        run: echo "The secret is $SECRET_BRAVE_KEY"
+        env:
+          SECRET_BRAVE_KEY: ${{ secrets.SECRET_BRAVE_KEY }}
+
