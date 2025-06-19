@@ -30,4 +30,4 @@ jobs:
         run: aws cloudfront create-invalidation --distribution-id E1P3PDIT8TJW7G --paths "/*"
 
       - name: test
-        run: echo bilo sta
+        run: echo bilo sta1
