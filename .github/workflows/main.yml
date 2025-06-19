@@ -1,10 +1,15 @@
-name: First Test Workflow
+name: Secret Brave Key Test
 
 on: [push]
 
 jobs:
-  test_job:
+  show_secret:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello World
-        run: echo "Hello from GitHub Actions!"
+      - name: Print Brave Key
+        run: echo "The secret is $SECRET_BRAVE_KEY"
+        env:
+          SECRET_BRAVE_KEY: ${{ secrets.SECRET_BRAVE_KEY }}
+      - name: test
+        run: echo runnujem random komandu ovde
+
