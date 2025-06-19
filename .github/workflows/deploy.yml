@@ -24,10 +24,11 @@ jobs:
 
 
       - name: Upload files to S3
-        run: aws s3 sync ./public s3://belgraderaveclub.com --delete
+        run: aws s3 cp . s3://belgraderaveclub.com/ --recursive --exclude ".git/*" --exclude ".github/*"
+
 
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id E1P3PDIT8TJW7G --paths "/*"
 
-      - name: test
-        run: echo bilo sta1
+      - name: Invalidate CloudFront cache
+        run: echo bilo sta
