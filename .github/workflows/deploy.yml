@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Assume Role
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -29,4 +29,5 @@ jobs:
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id E1P3PDIT8TJW7G --paths "/*"
 
-  
+      - name: test
+        run: echo bilo sta
