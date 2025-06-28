@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline:none;
+   
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+header{
+  margin-top: 20px;
+  position: fixed;
+  top:0;
+
+
+}
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular-italic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
