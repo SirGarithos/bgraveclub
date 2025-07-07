@@ -11,9 +11,9 @@ function setActiveNav(link) {
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
+    setActiveNav(this);
     const section = this.textContent.trim().toLowerCase();
     showSection(section);
-    setActiveNav(this);
   });
 });
 
