@@ -1,22 +1,20 @@
-// script.js
-function showSection(sectionClass) {
-  document.querySelector('.home').style.display = 'none';
-  document.querySelector('.about').style.display = 'none';
-  document.querySelector('.events').style.display = 'none';
-  document.querySelector(sectionClass).style.display = 'block';
+function showSection(section) {
+  document.querySelectorAll('section').forEach(el => el.style.display = 'none');
+  document.querySelector('.' + section).style.display = 'block';
 }
 
-document.querySelector('nav a.active').addEventListener('click', function(e) {
-  e.preventDefault();
-  showSection('.home');
+function setActiveNav(link) {
+  document.querySelectorAll('nav a').forEach(el => el.classList.remove('active'));
+  link.classList.add('active');
+}
+
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const section = this.textContent.trim().toLowerCase();
+    showSection(section);
+    setActiveNav(this);
+  });
 });
 
-document.querySelector('nav a[href="#about"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  showSection('.about');
-});
-
-document.querySelector('nav a[href="#events"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  showSection('.events');
-});
+showSection('home');
