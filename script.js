@@ -280,7 +280,7 @@ function initDJImageRotation() {
         }
       }
     });
-  }, 5000); // Rotate every 5 seconds
+  }, 2000); // Rotate every 2 seconds
 }
 
 // ==================== GALLERY SECTION ====================
@@ -546,5 +546,5 @@ function initBackgroundRotation() {
   setInterval(() => {
     currentIndex = (currentIndex + 1) % backgroundImages.length;
     homeSection.style.backgroundImage = `url('${backgroundImages[currentIndex]}')`;
-  }, 2000);
+  }, 1500);
 }

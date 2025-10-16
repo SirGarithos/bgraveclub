@@ -18,7 +18,7 @@ const config = {
     name: "Belgrade Rave Club",
     tagline: "Where the Night Comes Alive",
     description: "Belgrade's psytrance haven - retro vibes, night-time grooves, and full-on energy",
-    location: "Savamala District, Belgrade, Serbia",
+    location: "Secret Location, Belgrade, Serbia",
     email: "info@belgraderaveclub.com",
     phone: "+381 11 123 4567"
   },
@@ -30,7 +30,7 @@ const config = {
     {
       id: 1,
       name: "Chris",
-      genre: "Full-On / Night Psytrance",
+      genre: "Night / Twilight / Retro",
       bio: "Spinning full-on madness when the sun goes down. Chris knows how to ride that sweet spot between driving basslines and twisted melodies, keeping the floor moving without ever losing the plot. Less talk, more trance.",
       image: "assets/images/djs/chris/chris1.jpeg",
       images: [
@@ -46,7 +46,7 @@ const config = {
     {
       id: 2,
       name: "Enigma",
-      genre: "Night Psytrance / Dark Progressive",
+      genre: "Full-On",
       bio: "Deep into the night when the vibe shifts darker, Enigma takes over. Atmospheric layers, rolling bass, and just enough edge to keep things interesting. No gimmicks, just solid night-time psytrance that hits different.",
       image: "assets/images/djs/enigma/enigma1.jpeg",
       images: [
@@ -62,7 +62,7 @@ const config = {
     {
       id: 3,
       name: "Dexim Lecur",
-      genre: "Retro Goa / Classic Psy",
+      genre: "Full-On / Retro Goa / Classic Psy",
       bio: "Old school heads know what's up. Dexim brings back those classic Goa sounds from the golden era - 303 acid lines, organic grooves, and melodies that actually go somewhere. What psytrance used to be before everyone got obsessed with presets.",
       image: "https://via.placeholder.com/400x400/9d00ff/ffffff?text=DEXIM+LECUR",
       images: [
@@ -75,7 +75,7 @@ const config = {
     {
       id: 4,
       name: "Extremely Rare",
-      genre: "Obscure Psy / Forgotten Classics",
+      genre: "Retro / Forgotten Classics",
       bio: "Digging through DAT tapes and CD-Rs from back in the day. Those tracks that disappeared from the scene but shouldn't have. If you remember hearing it at a forest party in 2003 but can never find it again, Rare probably has it.",
       image: "https://via.placeholder.com/400x400/ff00cc/000000?text=EXTREMELY+RARE",
       images: [
@@ -88,8 +88,8 @@ const config = {
     {
       id: 5,
       name: "Fantazija",
-      genre: "Melodic Full-On / Progressive Psy",
-      bio: "Building those sets that start somewhere and actually take you on a trip. Proper progression, melodies that make sense, and enough energy to keep your feet moving. Fantazija gets that balance between euphoric and driving without going cheesy.",
+      genre: "Full-On / Retro",
+      bio: "Building those sets that start somewhere and actually take you on a trip. Proper progression, melodies that make sense, and enough energy to keep your feet moving. The morning kick-ass guy who brings relentless energy when others are fading. Fantazija gets that balance between euphoric and driving without going cheesy.",
       image: "https://via.placeholder.com/400x400/00ffff/000000?text=FANTAZIJA",
       images: [
         "https://via.placeholder.com/400x400/00ffff/000000?text=FANTAZIJA"
@@ -104,11 +104,11 @@ const config = {
   about: {
     title: "About Belgrade Rave Club",
     paragraphs: [
-      "Belgrade Rave Club is where the psytrance heads gather when the night gets serious. We've been doing this since 2018, keeping the vibe real and the music proper. No commercial nonsense, just psychedelic trance the way it's meant to be heard.",
+      "Belgrade Rave Club is where the psytrance heads gather when the night gets serious. We've been doing this since 2018, keeping the vibe real and the music proper. Just psychedelic trance the way it's meant to be heard.",
 
-      "You'll find us in Savamala, tucked away from the mainstream spots. The space works - decent sound, enough room to lose yourself, and lighting that enhances rather than distracts. We book DJs who know their stuff, whether they're spinning retro Goa classics, driving full-on, or those darker night-time grooves.",
+      "Find us where the good party is - our secret location with a proper sound system. The space works - enough room to lose yourself, and lighting that enhances rather than distracts. We book DJs who know their stuff, whether they're spinning retro Goa classics, driving full-on, or those darker night-time grooves.",
 
-      "Look, we're not here to reinvent anything. Good music, good people, and a place where you can dance without all the pretentious club politics. If you're into psytrance - the real stuff, not the commercial festival garbage - you'll fit right in. That's pretty much it."
+      "Good music, good people, and a place where you can dance. If you're into psytrance, you'll fit right in."
     ],
     features: [
       {
@@ -133,9 +133,9 @@ const config = {
       }
     ],
     location: {
-      address: "Karađorđeva 45, Savamala",
+      address: "Secret Location",
       city: "Belgrade, Serbia",
-      directions: "5 min walk from Savski Trg, near the waterfront"
+      directions: "Location revealed to ticket holders - where the good party is"
     }
   },
 
