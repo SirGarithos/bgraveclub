@@ -23,7 +23,17 @@ jobs:
           role-duration-seconds: 1200
 
       - name: Upload files to S3
-        run: aws s3 cp . s3://belgraderaveclub.com/ --recursive --exclude ".git/*" --exclude ".github/*"
+        run: |
+          aws s3 cp . s3://belgraderaveclub.com/ --recursive \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "*.md" \
+            --exclude "cloud/*" \
+            --exclude "duct/*" \
+            --exclude "docs/*" \
+            --exclude "*.tar.gz" \
+            --exclude "*.zip" \
+            --exclude "links"
 
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id E1P3PDIT8TJW7G --paths "/*"

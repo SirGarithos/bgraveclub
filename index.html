@@ -3,47 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belgrade Rave Club</title>
+  <meta name="description" content="Belgrade Rave Club - Where the Night Comes Alive. Psychedelic trance, retro Goa, night-time grooves, and full-on energy in Belgrade.">
+  <meta name="keywords" content="psytrance, psychedelic trance, Belgrade, Goa trance, full-on, night psytrance, retro psy, rave, underground">
+  <title>Belgrade Rave Club - Where the Night Comes Alive</title>
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
-  <style>
-    body {
-      /* Set the background image */
-      background-image: url('psy.png');
-      background-size: cover;       /* Make image cover entire screen */
-      background-position: center;  /* Center the image */
-      background-repeat: no-repeat; /* Don’t repeat */
-      height: 100vh;                /* Full viewport height */
-      margin: 0;
-      padding: 0;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Configuration -->
+  <script src="config.js"></script>
 </head>
 <body>
-  <header>
-    <a href="#" class="logo">Belgrade Rave Club</a>
-    <nav>
-      <a href="#" class="active">Home</a>
-      <a href="#">About</a>
-      <a href="#">Events</a>
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header id="header">
+    <a href="#home" class="logo">Belgrade Rave Club</a>
+    <nav id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#djs">DJs</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#events">Events</a>
     </nav>
-  </header>
-  <section class="home">
-    <div class="home-content">
-      <h1>Hi, It's Belgrade Rave Club</h1>
+    <!-- Mobile Menu Toggle -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
     </div>
-  </section>                                      
-  <div class="social icons">
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
+  </header>
 
+  <!-- ==================== HOME / HERO SECTION ==================== -->
+  <section id="home" class="section home-section">
+    <div class="background-overlay"></div>
+    <div class="home-content">
+      <h1 class="glitch" data-text="Belgrade Rave Club">Belgrade Rave Club</h1>
+      <p class="tagline">Where the Night Comes Alive</p>
+      <div class="cta-buttons">
+        <a href="#events" class="btn btn-primary">Upcoming Events</a>
+        <a href="#about" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Scroll Down Indicator -->
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <div class="about-text" id="about-text">
+          <!-- Content loaded from config.js -->
+        </div>
+        <div class="about-features" id="about-features">
+          <!-- Features loaded from config.js -->
+        </div>
+      </div>
+      <div class="about-location" id="about-location">
+        <!-- Location info loaded from config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DJS SECTION ==================== -->
+  <section id="djs" class="section djs-section">
+    <div class="container">
+      <h2 class="section-title">Our DJs</h2>
+      <p class="section-subtitle">Meet the artists who bring the magic to life</p>
+      <div class="djs-grid" id="djs-grid">
+        <!-- DJ cards loaded dynamically from config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY SECTION ==================== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-subtitle">Moments captured from our legendary nights</p>
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Gallery images loaded dynamically from config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox for Gallery -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-close" id="lightbox-close">&times;</span>
+      <img src="" alt="" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+      <div class="lightbox-controls">
+        <button class="lightbox-prev" id="lightbox-prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" id="lightbox-next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
   </div>
 
- <script src="script.js"></script> 
+  <!-- ==================== EVENTS SECTION ==================== -->
+  <section id="events" class="section events-section">
+    <div class="container">
+      <h2 class="section-title">Upcoming Events</h2>
+      <p class="section-subtitle">Don't miss our next parties</p>
+      <div class="events-grid" id="events-grid">
+        <!-- Event cards loaded dynamically from config.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Belgrade Rave Club</h3>
+          <p>Where the Night Comes Alive</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p id="footer-contact">
+            <!-- Contact info loaded from config.js -->
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons" id="footer-social">
+            <!-- Social icons loaded from config.js -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Belgrade Rave Club. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="script.js"></script>
 </body>
 </html>
-
-
