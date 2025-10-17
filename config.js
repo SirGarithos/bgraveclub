@@ -90,9 +90,11 @@ const config = {
       name: "Fantazija",
       genre: "Full-On / Retro",
       bio: "Building those sets that start somewhere and actually take you on a trip. Proper progression, melodies that make sense, and enough energy to keep your feet moving. The morning kick-ass guy who brings relentless energy when others are fading. Fantazija gets that balance between euphoric and driving without going cheesy.",
-      image: "https://via.placeholder.com/400x400/00ffff/000000?text=FANTAZIJA",
+      image: "assets/images/djs/fantazija/2996937b-c982-467b-a893-2abf1f9a7d5c.jpeg",
       images: [
-        "https://via.placeholder.com/400x400/00ffff/000000?text=FANTAZIJA"
+        "assets/images/djs/fantazija/2996937b-c982-467b-a893-2abf1f9a7d5c.jpeg",
+        "assets/images/djs/fantazija/bc63b523-ff89-47c9-a8e1-45c5e1b32706.jpeg",
+        "assets/images/djs/fantazija/f73b0208-a024-4c24-8724-569a20305fe3.jpeg"
       ],
       socialLinks: {
         // Coming soon

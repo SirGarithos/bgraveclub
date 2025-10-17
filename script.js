@@ -542,9 +542,9 @@ function initBackgroundRotation() {
   // Set initial background
   homeSection.style.backgroundImage = `url('${backgroundImages[currentIndex]}')`;
 
-  // Rotate background every 2 seconds (2000ms)
+  // Rotate background every 5 seconds (5000ms)
   setInterval(() => {
     currentIndex = (currentIndex + 1) % backgroundImages.length;
     homeSection.style.backgroundImage = `url('${backgroundImages[currentIndex]}')`;
-  }, 1500);
+  }, 5000);
 }
