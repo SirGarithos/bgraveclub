@@ -198,7 +198,7 @@ function loadDJSection() {
       else if (platform === 'beatport') icon = 'music';
       else if (platform === 'mixcloud') icon = 'mixcloud';
 
-      socialLinksHTML += `<a href="${url}" target="_blank" rel="noopener"><i class="fab fa-${icon}"></i></a>`;
+      socialLinksHTML += `<a href="${url}" target="_blank" rel="noopener"><i class="fa-brands fa-${icon}"></i></a>`;
     }
     socialLinksHTML += '</div>';
 
@@ -468,7 +468,7 @@ function loadFooter() {
       else if (platform === 'youtube') icon = 'youtube';
       else if (platform === 'tiktok') icon = 'tiktok';
 
-      socialHTML += `<a href="${url}" target="_blank" rel="noopener"><i class="fab fa-${icon}"></i></a>`;
+      socialHTML += `<a href="${url}" target="_blank" rel="noopener"><i class="fa-brands fa-${icon}"></i></a>`;
     }
     footerSocial.innerHTML = socialHTML;
   }
