@@ -61,12 +61,12 @@ const config = {
     },
     {
       id: 3,
-      name: "Dexim Lecur",
+      name: "Dexim Lecopur",
       genre: "Full-On / Retro Goa / Classic Psy",
       bio: "Old school heads know what's up. Dexim brings back those classic Goa sounds from the golden era - 303 acid lines, organic grooves, and melodies that actually go somewhere. What psytrance used to be before everyone got obsessed with presets.",
-      image: "https://via.placeholder.com/400x400/9d00ff/ffffff?text=DEXIM+LECUR",
+      image: "https://via.placeholder.com/400x400/9d00ff/ffffff?text=DEXIM+LECOPUR",
       images: [
-        "https://via.placeholder.com/400x400/9d00ff/ffffff?text=DEXIM+LECUR"
+        "https://via.placeholder.com/400x400/9d00ff/ffffff?text=DEXIM+LECOPUR"
       ],
       socialLinks: {
         // Coming soon
