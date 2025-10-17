@@ -214,6 +214,36 @@ const config = {
       src: "assets/images/gallery/party12.jpg",
       alt: "Sunrise session",
       caption: "Dancing into the dawn"
+    },
+    {
+      id: 13,
+      src: "assets/images/gallery/party13.jpg",
+      alt: "Legendary night at Belgrade Rave Club",
+      caption: "Energy on the floor"
+    },
+    {
+      id: 14,
+      src: "assets/images/gallery/party14.jpg",
+      alt: "Crowd vibes at the club",
+      caption: "Lost in the music"
+    },
+    {
+      id: 15,
+      src: "assets/images/gallery/party15.jpg",
+      alt: "Party atmosphere",
+      caption: "When the night peaks"
+    },
+    {
+      id: 16,
+      src: "assets/images/gallery/party16.jpg",
+      alt: "Dance floor moments",
+      caption: "Pure psytrance energy"
+    },
+    {
+      id: 17,
+      src: "assets/images/gallery/party17.jpg",
+      alt: "Belgrade Rave Club night",
+      caption: "Where the night comes alive"
     }
   ],
 
