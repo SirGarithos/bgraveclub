@@ -54,7 +54,6 @@ bgraveclub/
 
 The website is deployed and ready to use. For local development, simply open `index.html` in any modern web browser:
 ```bash
-cd /home/shaddar/Documents/workspace/personal/websites/bgraveclub
 open index.html  # macOS
 xdg-open index.html  # Linux
 start index.html  # Windows

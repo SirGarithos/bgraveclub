@@ -267,11 +267,11 @@ const config = {
   // ==================== SOCIAL MEDIA ====================
   socialMedia: {
     facebook: "https://facebook.com/belgraderaveclub",
-    instagram: "https://instagram.com/belgraderaveclub",
+    instagram: "https://instagram.com/belgrade_rave_club",
     twitter: "https://twitter.com/belgraderaveclub",
-    soundcloud: "https://soundcloud.com/belgraderaveclub",
+    soundcloud: "https://on.soundcloud.com/1tvzxMQ4nEYOAQOwYI",
     youtube: "https://youtube.com/@belgraderaveclub",
-    tiktok: "https://tiktok.com/@belgraderaveclub"
+    tiktok: "https://www.tiktok.com/@belgrade_rave_club?_t=ZM-90bgvaVrXmC&_r=1"
   },
 
   // ==================== CONTACT INFO ====================
